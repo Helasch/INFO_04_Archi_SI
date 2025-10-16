@@ -1,6 +1,5 @@
 namespace UniversiteDomain.Exceptions.EtudiantExceptions;
 
-[Serializable]
 public class InvalidEmailException : Exception
 {
     public InvalidEmailException() : base() { }

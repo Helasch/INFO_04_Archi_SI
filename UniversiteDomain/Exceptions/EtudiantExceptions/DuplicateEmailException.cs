@@ -1,6 +1,5 @@
 namespace UniversiteDomain.Exceptions.EtudiantExceptions;
 
-[Serializable]
 public class DuplicateEmailException : Exception
 {
     public DuplicateEmailException() : base() {}
